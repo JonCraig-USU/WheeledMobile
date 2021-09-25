@@ -35,10 +35,12 @@ t.goto(-235, -235)
 t.setheading(90)
 t.pendown()
 
+# set the first i length and do one side
+    # this is due to the pattern changing every 2 sides 
+    # after the first side is drawn
 i = 470
 t.forward(i)
 t.right(90)
-
 
 while(i >= 0):
     t.forward(i)
@@ -46,9 +48,5 @@ while(i >= 0):
     t.forward(i)
     t.right(90)
     i -= 30
-    # t.forward(i)
-    # t.right(90)
-    # t.forward(i)
-    # t.right(90)
 
 t.mainloop()

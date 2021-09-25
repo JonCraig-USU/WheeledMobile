@@ -1,5 +1,7 @@
 import turtle as t
 
+'''everything on this one was done in centimeters'''
+
 # robot dimensions
 w = 30
 l = 50
@@ -34,9 +36,7 @@ t.goto(-235, -225 + 450)
 t.setheading(90)
 t.pendown()
 
-# set the first i length and do one side
-    # this is due to the pattern changing every 2 sides 
-    # after the first side is drawn
+# the first side is done seperately as it does not follow 
 xMv = 470
 yMv = 450
 x = -235
